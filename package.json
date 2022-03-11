@@ -1,0 +1,30 @@
+{
+  "name": "sendgrid-email",
+  "version": "1.0.0",
+  "description": "Send email with SendGrid",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitquant/sendgrid-email.git"
+  },
+  "keywords": [
+    "sendgrid",
+    "email"
+  ],
+  "author": "bitquant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitquant/sendgrid-email/issues"
+  },
+  "homepage": "https://github.com/bitquant/sendgrid-email#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0"
+  }
+}
