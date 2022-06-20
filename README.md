@@ -8,7 +8,7 @@ $ npm install sendgrid-email
 
 ## Usage
 ```javascript
-import sendgrid from 'sendgrid-email';
+const sendgrid = require('sendgrid-email');
 
 (async function() {
 
