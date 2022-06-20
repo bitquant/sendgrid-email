@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+const fetch = require('fetchout');
 
 let bearerToken = null;
 
@@ -33,4 +33,5 @@ async function send(email) {
     }
 }
 
-export default { configure, send };
+exports.configure = configure;
+exports.send = send;
