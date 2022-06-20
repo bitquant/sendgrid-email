@@ -1,6 +1,6 @@
 {
   "name": "sendgrid-email",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Send email with SendGrid",
   "main": "index.js",
   "scripts": {
